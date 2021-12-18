@@ -33,7 +33,7 @@ We have an increase of reports during the decades of 1950s, and the number of fa
 
 ## Conclutions  
 
-We can conclued that the numer of reports during times are incressing, and the numeber of fatal attacks during the time continue stable, so  the persantage of fatal attacks is decressing during the time 
+We can conclued that the numer of reports during times are incressing, the numeber of fatal attacks continue stable during the time, with this the rate of fatal attacks is decresing during the time. 
 
 
 ## Next steps 
