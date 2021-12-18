@@ -3,7 +3,7 @@
 This project have as objective: 
 1. Clean up  data to make it usful 
 2. Find usefull information whitin the clean data 
-3. Answer the question: The deadly rate of shark attacks is increasing?
+3. Answer the question: The fatal Shark attacks are incresing or decresing during the time?
 
 ## Clean up 
 The data set have several issues, the bigger issue was 65 % of the Rows are fill with NANs or missing information, reviewing the information clean the obsolete data, emapty columns and rows with more that have  20% of the information as NANs. 
