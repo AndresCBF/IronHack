@@ -13,7 +13,7 @@ The second bigger issue is the quality of the information  in the Columns, as ex
 Other columns have similar issue with upper, lower letters, special characters, creatinf duplicated information or invalid information, after treating this, we get valiuble information i all our Data sets    
 
 
-## Data Analyze 
+## Data Analisys
 
 The USA have the higher ammount of shark attacks reports, folow by Australia and South Africa 
 
