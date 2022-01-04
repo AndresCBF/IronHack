@@ -59,3 +59,4 @@ The popularity and the career time are not related, either the amomg of song rel
 
 Some artist have special release after the band breackup, death of a member or artist death, this create a discrepancy of years in the artist career. 
 
+Linkin Park is the most popular artist, and is one with short career time.
