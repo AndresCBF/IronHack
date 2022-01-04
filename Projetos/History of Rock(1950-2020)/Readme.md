@@ -1,3 +1,13 @@
 ### Rock Histrory 
 
-Alcohol consuption is increassing in relation of Rock music?  
+This project have as objective:
+
+Find usefull information 
+Answer the question: wich artist have the longest career and more numbers of songs release?
+
+## 
+
+## Analysis
+
+## Conclutions
+ 
