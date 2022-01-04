@@ -39,9 +39,11 @@ As we have several artis over the year we make a filter of artist that release m
 
 We compare the popularity of the artist with the songs release over the career  
 
+<img width="285" alt="image" src="https://user-images.githubusercontent.com/72528803/148133350-c80206ab-9bd7-4174-a9a7-b983616821e5.png">
+
 <img width="282" alt="image" src="https://user-images.githubusercontent.com/72528803/148132086-ca40a3ea-ddeb-46da-8fdc-8cc60344c9e4.png">
 
-we can copare 
+
 
 <img width="290" alt="image" src="https://user-images.githubusercontent.com/72528803/148127882-5abf2521-3825-4619-a97c-c67fab495fce.png">
 
