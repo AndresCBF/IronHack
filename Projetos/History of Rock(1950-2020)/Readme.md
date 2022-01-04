@@ -35,10 +35,13 @@ totalsongsyear: Total song release by year (all artist).
 ## Analysis
 
 
+As we have several artis over the year we make a filter of artist that release more that 15 song over the career.
 
-<img width="282" alt="image" src="https://user-images.githubusercontent.com/72528803/148128560-cce019b4-0a05-416c-af52-404d94d14aef.png">
+We compare the popularity of the artist with the songs release over the career  
 
+<img width="282" alt="image" src="https://user-images.githubusercontent.com/72528803/148132086-ca40a3ea-ddeb-46da-8fdc-8cc60344c9e4.png">
 
+we can copare 
 
 <img width="290" alt="image" src="https://user-images.githubusercontent.com/72528803/148127882-5abf2521-3825-4619-a97c-c67fab495fce.png">
 
@@ -49,5 +52,8 @@ totalsongsyear: Total song release by year (all artist).
 
 
 ## Conclutions
- 
+
+The popularity and the career time are not related, either the amomg of song release over the career.   
+
+Some artist have special release after the band breackup, death of a member or artist death, this create a discrepancy of years in the artist career. 
 
