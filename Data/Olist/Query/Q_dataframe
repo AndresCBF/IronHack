@@ -1,0 +1,23 @@
+select tb_orderstatus.*, 
+	customer.customer_state,
+	items.seller_id,
+	items.product_id,
+	product.product_category_name,
+	seller.seller_state,
+	reviews.review_score
+	from (
+		select orders.order_id,
+		orders.customer_id,
+		orders.order_estimated_delivery_date,
+		orders.order_delivered_customer_date,
+		DATE_PART('day', orders.order_delivered_customer_date - orders.order_estimated_delivery_date) as dif_deliver,
+		Case
+			when DATE_PART('day', orders.order_delivered_customer_date - orders.order_estimated_delivery_date) > 0 then 'Delay'
+			when DATE_PART('day', orders.order_delivered_customer_date - orders.order_estimated_delivery_date) <= 0 then 'On Time'
+			else 'Not Deliver' End as deliver_status	
+		from olist_db.olist_orders_dataset as orders
+	) as tb_orderstatus inner join olist_db.olist_customers_dataset as customer on tb_orderstatus.customer_id = customer.customer_id
+	inner join olist_db.olist_order_items_dataset as items on tb_orderstatus.order_id = items.order_id
+	inner join olist_db.olist_sellers_dataset as seller on items.seller_id = seller.seller_id
+	inner join olist_db.olist_order_reviews_dataset as reviews on tb_orderstatus.order_id = reviews.order_id
+	inner join olist_db.olist_products_dataset as product on product.product_id = items.product_id

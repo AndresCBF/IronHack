@@ -1,0 +1,26 @@
+Select tb_delaysellercustomer.seller_state,
+tb_delaysellercustomer.customer_state,
+count(tb_delaysellercustomer.order_id) as Q_stateordersdelay
+from (
+	select tb_orderstatus.*, 
+	customer.customer_state,
+	items.seller_id,
+	seller.seller_state
+	from (
+		select orders.order_id,
+		orders.customer_id,
+		orders.order_estimated_delivery_date,
+		orders.order_delivered_customer_date,
+		DATE_PART('day', orders.order_delivered_customer_date - orders.order_estimated_delivery_date) as dif_deliver,
+		Case
+			when DATE_PART('day', orders.order_delivered_customer_date - orders.order_estimated_delivery_date) > 0 then 'Delay'
+			when DATE_PART('day', orders.order_delivered_customer_date - orders.order_estimated_delivery_date) <= 0 then 'On Time'
+			else 'Not Deliver' End as deliver_status	
+		from olist_db.olist_orders_dataset as orders
+	) as tb_orderstatus inner join olist_db.olist_customers_dataset as customer on tb_orderstatus.customer_id = customer.customer_id
+	inner join olist_db.olist_order_items_dataset as items on tb_orderstatus.order_id = items.order_id
+	inner join olist_db.olist_sellers_dataset as seller on items.seller_id = seller.seller_id
+	where tb_orderstatus.deliver_status = 'Delay'
+) as tb_delaysellercustomer
+group by tb_delaysellercustomer.seller_state, tb_delaysellercustomer.customer_state
+order by seller_state desc
