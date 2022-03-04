@@ -9,7 +9,7 @@ Tasty is a food recipe application. Though Tasty was originally started as a Fac
 1. Extract information from a Api  
 2. Transform and clean information to useful Dataset      
 3. Load information in SQLPostgress Database   
-4. Create a Tableau dashboard to visualise the data
+4. Create a Tableau dashboard to visualize information
 
 
 ## Extract information
@@ -20,8 +20,44 @@ How to Use the Tasty API: https://rapidapi.com/blog/tasty-api-with-java-python-p
 
 Tasty API Documentation: https://rapidapi.com/apidojo/api/tasty/
 
-In this project was used two enpoints to extract all the recepies avalilable from the Tasty APi. With the enpoint "tags/list" was requested a list of all available tags, for each of the avliable tags was requeted all the recepies available per Tag using the enpoint "recipes/list", getting the name of recipe, description, steps by step to prepare the recepie, ingredients, units and measurement, nutrition information, and mush ore information for the recipes.  
+In this project was used two enpoints to extract all the recepies avalilable from the Tasty APi. With the enpoint "tags/list" was requested a list of all available tags, for each of the avliable tags was requeted all the recepies available per Tag using the enpoint "recipes/list", getting the name of recipe, description, steps by step to prepare the recepie, ingredients, units and measurement, nutrition information, and others informations. 
+
+The information recibe from the Api is in Json format, with which was created a Data Frame with the follow information:
+
+'Recipe_id'
+'Recipe_name'
+'Recipe_score'
+'Recipe_positivevotes'
+'Recipe_negativevotes'
+'Recipe_totalvotes'
+'Recipe_country'
+'Recipe_servings'
+'Recipe_instructions'
+'Recipe_totalingredients'
+'Ingredient_text'
+'Ingredient_id'
+'Ingredient_name'
+'Ingredient_quantity'
+'Unit_id'
+'Unit_name'
+'Recipe_calories'
+'Recipe_carbohydrates'
+'Recipe_protein'
+'Recipe_fat'
+'Recipe_fiber'
+'Recipe_sugar'
+'Recipe_video'
+'Recipe_tags'
 
 
-##  Transform and Clean information 
+## Transform and Clean information 
+
+
+
+## Load information
+
+
+
+## Visualize information
+
 
