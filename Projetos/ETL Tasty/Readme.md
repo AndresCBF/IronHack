@@ -22,7 +22,7 @@ Tasty API Documentation: https://rapidapi.com/apidojo/api/tasty/
 
 In this project was used two enpoints to extract all the recepies avalilable from the Tasty APi. With the enpoint "tags/list" was requested a list of all available tags, for each of the avliable tags was requeted all the recepies available per Tag using the enpoint "recipes/list", getting the name of recipe, description, steps by step to prepare the recepie, ingredients, units and measurement, nutrition information, and others informations. 
 
-The information recibe from the Api is in Json format, with which was created a Data Frame with the follow information:
+The information recibe from the Api is in Json format, with which was created a DataFrame with the follow information:
 
 'Recipe_id', 
 'Recipe_name', 
@@ -52,15 +52,46 @@ The information recibe from the Api is in Json format, with which was created a 
 
 ## Transform and Clean information 
 
+With the created DataFrame the information was
 
-country
+
+
+Country DataFrame
+'Country_id',
+'Country_tags'	
+
+
 tagg_recepies
-measurements
-ingredients
-recipes
+'Recipe_id', 
+'Recipe_tags'
+
 ratings
+'Ratings_id', 
+'Recipe_score', 
+'Recipe_positivevotes',
+'Recipe_negativevotes',
+'Recipe_totalvotes'
+
 nutrition
+'Nutrition_id',
+'Recipe_calories',
+'Recipe_carbohydrates',
+'Recipe_protein',
+'Recipe_fat',
+'Recipe_fiber',
+'Recipe_sugar'
+
+measurements
+'Unit_id',
+'Unit_name'	
+
+ingredients
+'Ingredient_id',
+'Ingredient_name'
+
 ingredientsquantitymeasurments
+
+recipes
 
 
 ## Load information
