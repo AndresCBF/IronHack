@@ -115,7 +115,31 @@ Using the python librarys psycopg2 and sqlalchemy, the created datases were loda
 
 <img width="320" alt="image" src="https://user-images.githubusercontent.com/72528803/156837076-31f766f8-75ff-402e-81de-ab904fb5f3ef.png">
 
+with the Schema Database inplce we can create some SQL scripts to answer some information in the Database as:
 
+Top 5 used ingredits in recepies:
+
+ <img width="124" alt="image" src="https://user-images.githubusercontent.com/72528803/156840460-53e5ff42-b421-43d2-9ac9-7be09a76d9d5.png">
+
+Top 10 recepies by score and totalvotes:
+
+<img width="283" alt="image" src="https://user-images.githubusercontent.com/72528803/156840579-d3a6d00b-5df0-4121-8d66-30f4a569f3e4.png">
+
+Top 5 Countrys with more recepies: 
+
+<img width="115" alt="image" src="https://user-images.githubusercontent.com/72528803/156840743-c93c1eb8-074a-44b0-846b-39d64d70e0fe.png">
+
+More used ingredients by country:
+
+<img width="213" alt="image" src="https://user-images.githubusercontent.com/72528803/156840914-8cc56524-c184-4663-9c23-c721bbdce831.png">
+
+Top 5 ingredients used in Brazil:
+
+<img width="204" alt="image" src="https://user-images.githubusercontent.com/72528803/156841120-294c637b-49f8-44c3-b44a-a8de1e52178a.png">
+
+Follow you can find the SQL scripts used above:
+
+https://github.com/AndresCBF/IronHack/tree/main/Projetos/ETL%20Tasty/Script%20Postgres
 
 ## Visualize information
 
