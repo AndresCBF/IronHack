@@ -52,27 +52,25 @@ The information recibe from the Api is in Json format, with which was created a 
 
 ## Transform and Clean information 
 
-With the created DataFrame the information was
+With the created DataFrame the information was separated in diferents datasets with a specific information avoiding duplicate data and reducing the size and weight, to create Datasets with reliable information, the data was clean and treate to create the followings Datasets: 
 
-
-
-Country DataFrame
+country Dataset:  
 'Country_id',
 'Country_tags'	
 
 
-tagg_recepies
+tagg_recepies Dataset:  
 'Recipe_id', 
 'Recipe_tags'
 
-ratings
+ratings Dataset:  
 'Ratings_id', 
 'Recipe_score', 
 'Recipe_positivevotes',
 'Recipe_negativevotes',
 'Recipe_totalvotes'
 
-nutrition
+nutrition Dataset:  
 'Nutrition_id',
 'Recipe_calories',
 'Recipe_carbohydrates',
@@ -81,18 +79,31 @@ nutrition
 'Recipe_fiber',
 'Recipe_sugar'
 
-measurements
+measurements Dataset:  
 'Unit_id',
 'Unit_name'	
 
-ingredients
+ingredients Dataset:  
 'Ingredient_id',
 'Ingredient_name'
 
-ingredientsquantitymeasurments
+ingredientsquantitymeasurments Dataset:  
+'Recipe_id', 
+'Ingredient_id', 
+'Unit_id', 
+'Ingredient_quantity', 
+'Ingredient_name', 
+'Unit_name', 
+'Ingredient_text'
 
-recipes
-
+recipes Dataset:  
+'Recipe_id', 
+'Recipe_name', 
+'Recipe_servings', 
+'Recipe_instructions', 
+'Recipe_totalingredients', 
+'Recipe_video', 
+'Recipe_tags'
 
 ## Load information
 
