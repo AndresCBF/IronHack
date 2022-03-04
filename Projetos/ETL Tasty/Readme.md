@@ -125,7 +125,7 @@ Top 10 recepies by score and totalvotes:
 
 <img width="283" alt="image" src="https://user-images.githubusercontent.com/72528803/156840579-d3a6d00b-5df0-4121-8d66-30f4a569f3e4.png">
 
-Top 5 Countrys with more recepies: 
+Top 5 Countries with more recepies: 
 
 <img width="115" alt="image" src="https://user-images.githubusercontent.com/72528803/156840743-c93c1eb8-074a-44b0-846b-39d64d70e0fe.png">
 
