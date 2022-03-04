@@ -53,6 +53,15 @@ The information recibe from the Api is in Json format, with which was created a 
 ## Transform and Clean information 
 
 
+country
+tagg_recepies
+measurements
+ingredients
+recipes
+ratings
+nutrition
+ingredientsquantitymeasurments
+
 
 ## Load information
 
