@@ -111,7 +111,11 @@ The created Datasets are available Kaggel in the foloing link:  https://www.kagg
 
 ## Load information
 
-Using the python librarys psycopg2 and sqlalchemy, the created datases were lodad to PostgreSQL as Schema Database,   
+Using the python librarys psycopg2 and sqlalchemy, the created datases were lodad as tables in to PostgreSQL to create a Schema Database, as the tables were created with the  primarys keys, is generated a Entity Relationship Diagram of the table:
+
+<img width="320" alt="image" src="https://user-images.githubusercontent.com/72528803/156837076-31f766f8-75ff-402e-81de-ab904fb5f3ef.png">
+
+
 
 ## Visualize information
 
