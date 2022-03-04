@@ -24,30 +24,30 @@ In this project was used two enpoints to extract all the recepies avalilable fro
 
 The information recibe from the Api is in Json format, with which was created a Data Frame with the follow information:
 
-'Recipe_id'
-'Recipe_name'
-'Recipe_score'
-'Recipe_positivevotes'
-'Recipe_negativevotes'
-'Recipe_totalvotes'
-'Recipe_country'
-'Recipe_servings'
-'Recipe_instructions'
-'Recipe_totalingredients'
-'Ingredient_text'
-'Ingredient_id'
-'Ingredient_name'
-'Ingredient_quantity'
-'Unit_id'
-'Unit_name'
-'Recipe_calories'
-'Recipe_carbohydrates'
-'Recipe_protein'
-'Recipe_fat'
-'Recipe_fiber'
-'Recipe_sugar'
-'Recipe_video'
-'Recipe_tags'
+'Recipe_id', 
+'Recipe_name', 
+'Recipe_score', 
+'Recipe_positivevotes', 
+'Recipe_negativevotes', 
+'Recipe_totalvotes', 
+'Recipe_country', 
+'Recipe_servings', 
+'Recipe_instructions', 
+'Recipe_totalingredients', 
+'Ingredient_text', 
+'Ingredient_id', 
+'Ingredient_name', 
+'Ingredient_quantity', 
+'Unit_id', 
+'Unit_name', 
+'Recipe_calories', 
+'Recipe_carbohydrates', 
+'Recipe_protein', 
+'Recipe_fat', 
+'Recipe_fiber', 
+'Recipe_sugar', 
+'Recipe_video', 
+'Recipe_tags'.
 
 
 ## Transform and Clean information 
