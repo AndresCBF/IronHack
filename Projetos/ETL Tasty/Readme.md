@@ -52,7 +52,9 @@ The information recibe from the Api is in Json format, with which was created a 
 
 ## Transform and Clean information 
 
-With the created DataFrame the information was separated in diferents datasets with a specific information avoiding duplicate data and reducing the size and weight, to create Datasets with reliable information, the data was clean and treate to create the followings Datasets: 
+With the created DataFrame the data were cleaned, treated duplicate data and treated missing values, with this where created diferents Datasets separating the information in diferents Datasets reducing the size and weight, aviding duplicate information. 
+
+the following dates were created with the following information in each: 
 
 country Dataset:  
 'Country_id',
@@ -105,9 +107,11 @@ recipes Dataset:
 'Recipe_video', 
 'Recipe_tags'
 
+The created Datasets are available Kaggel in the foloing link:  https://www.kaggle.com/andrescbohorquez/tasty-recipes
+
 ## Load information
 
-
+Using the python librarys psycopg2 and sqlalchemy, the created datases were lodad to PostgreSQL as Schema Database,   
 
 ## Visualize information
 
