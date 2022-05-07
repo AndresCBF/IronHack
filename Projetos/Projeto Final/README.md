@@ -58,14 +58,24 @@ Describe your full process of data wrangling and cleaning. Document why you chos
 <a name="conclusion"></a>
 
 ## Conclusion
-* Summarize your results. What do they mean?
-* What can you say about your hypotheses?
-* Interpret your findings in terms of the human-understandable question you try to answer.
+
+* Litorial Fallax frogs in Autralia prosper in more humid and warmer environments that the other spices.
+
+* Reducing the variables with PCA method reduce the score for the models. 
+
 
 <a name="future-work"></a>
 
 ## Future Work
-Address any questions you were unable to answer, or any next steps or future extensions to your project.
+
+* Create a local classification model (a region or sub-region), test the local model on the other regions to see the results.
+
+* Treat TerraClimate data as a time series to discover climate seasonality and how it affects the appearance of  frog.
+
+* Configure Hyperparameters for the classification models and see if you get an improvement
+
+* Use other methods of reducing variables, such Lasso to see if you get better results.
+
 
 <a name="workflow"></a>
 
