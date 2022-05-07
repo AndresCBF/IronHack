@@ -18,19 +18,40 @@
 <a name="project-description"></a>
 
 ## Project Description
-Write a short description of your project: 3-5 sentences about what your project is about, why you chose this topic (if relevant), and what you are trying to show. 
+
+Create a species distribution model (SDM) for frog species litoria fallax across Australia using weather data from the TerraClimate dataset.
+
+<center>
+<img src="pictures/Litoria_fallax.jpg" width="500" height="340"> 
+
+
+| Locations                     | Spatial Res        | Species          | Satellite Data                                                |
+|-------------------------------|--------------------|------------------|---------------------------------------------------------------|
+| Australia                     | Coarse (4km)  | 1 species  | TerraClimate    
+
+</center>
+
+A species distribution model is a specific type of machine learning model that aims to predict the distribution of a biological species across geographic space and time. Such models have become increasingly important in conservation efforts globally to better understand and map the habitats of species of interest, particularly threatened or endangered species. 
+
+Frogs are poorly served by existing species distribution models. They have very localized distributions, more restricted than suggested by a potentially suitable   habitat, and therefore existing models struggle to represent their range accurately.
 
 <a name="hypotheses-/-questions"></a>
 
 ## Hypotheses / Questions
-* What data/business/research/personal question you would like to answer? 
-* What is the context for the question and the scientific or business application? 
-* What are the hypotheses you would like to test in order to answer your question?  
-Frame your hypothesis with statistical/data language (i.e. define Null and Alternative Hypothesis). You can use formulas if you want but that is not required.
+
+Why frogs?:
+* Frogs are incredibly sensitive to environmental changes, so any changes in their species distribution may indicate an underlying change to biodiversity in the area.
+* Frogs are an indicator species. This means they are a go-to for scientists wanting to find out more about the environmental health of a particular ecosystem.
+* Because they have permeable skin, frogs are very sensitive to pollutants, and because they can live on both land and in the water, they are a good indicator of the health of these two different environments.
 
 <a name="dataset"></a>
 
 ## Dataset
+
+The datasets were optain from EY 2022 Better Working World Data Challenge Level 1: Local Frog Discovery Tool [here](https://challenge.ey.com/challenges/level-1-local-frog-discovery-tool-SXnArnHsm/data-description)
+
+
+
 * Where did you get your data? If you downloaded a dataset (either public or private), describe where you downloaded it and include the command to load the dataset.
 * Did you build your own datset? If so, did you use an API? If so, provide the scripts in your repo.
 * For all types of datasets, provide a description of the size, complexity, and data types included in your dataset, as well as a schema of the tables if necessary.
