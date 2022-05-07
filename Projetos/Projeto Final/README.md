@@ -56,11 +56,13 @@ The datasets were optain from EY 2022 Better Working World Data Challenge Level 
 <a name="cleaning"></a>
 
 ## Cleaning
+
 Describe your full process of data wrangling and cleaning. Document why you chose to fill missing values, extract outliers, or create the variables you did, etc, as well as your thinking process.
 
 <a name="analysis"></a>
 
 ## Analysis
+
 * Overview the general steps you will go through to analyze your data in order to test your hypothesis.
 * Document each step of your data exploration and analysis.
 * Include charts to demonstrate the effect of your work. 
