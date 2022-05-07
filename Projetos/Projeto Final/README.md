@@ -49,15 +49,9 @@ Why frogs?:
 ## Dataset
 
 The datasets were optain from EY 2022 Better Working World Data Challenge Level 1: Local Frog Discovery Tool [here](https://challenge.ey.com/challenges/level-1-local-frog-discovery-tool-SXnArnHsm/data-description)
+ * Global Biodiversity Information Facility [GBIF](https://www.gbif.org/pt/dataset/47c9fee2-619a-481c-a114-386bc4748256) : Subset of the GBIF occurrence   dataset which combines data from a wide array of sources, including specimen-related data from natural history museums, observations from citizen science networks, and automated environmental surveys.
+ *  [TerraClimate](https://planetarycomputer.microsoft.com/dataset/terraclimate) : TerraClimate is a dataset of monthly climate and climatic water balance for global terrestrial surfaces from 1958-2019. These data provide important inputs for ecological and hydrological studies at global scales that require high spatial resolution and time-varying data.
 
-
-
-
-
-* Where did you get your data? If you downloaded a dataset (either public or private), describe where you downloaded it and include the command to load the dataset.
-* Did you build your own datset? If so, did you use an API? If so, provide the scripts in your repo.
-* For all types of datasets, provide a description of the size, complexity, and data types included in your dataset, as well as a schema of the tables if necessary.
-* If the question cannot be answered with the available data, why not? What data would you need to answer it?
 
 <a name="cleaning"></a>
 
